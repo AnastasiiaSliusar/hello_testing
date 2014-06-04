@@ -1,0 +1,14 @@
+{
+  "name": "hello_testing",
+  "version": "0.0.0",
+  "description": "testing node packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "dependencies": {
+        "node-helloworlds": "git://github.com/AnastasiiaSliusar/node-helloworld.git#master"
+    },
+  "author": "Anastasiia Sliusar",
+  "license": "BSD-2-Clause"
+}
